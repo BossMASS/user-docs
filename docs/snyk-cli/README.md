@@ -1,15 +1,17 @@
 # Snyk CLI
 
-Snyk CLI brings [functionality of Snyk](https://docs.snyk.io/introducing-snyk#snyk-products) into your development workflow. You can run the CLI locally, or in your CI/CD pipeline to scan your projects for security issues, including security vulnerabilities and license issues. The following shows an example of Snyk CLI test command output.
+This documentation provides guidance and information for using the Snyk CLI to bring the functionality of Snyk into your development workflow. Here you will find:
 
-![Snyk CLI test command output](../.gitbook/assets/snyk-cli-screenshot.png)
+* Guidance for [getting started with the CLI](getting-started-with-the-snyk-cli.md)
+* An [important code execution warning for the Snyk CLI](code-execution-warning-for-snyk-cli.md)
+* Instructions for [installing or updating the Snyk CLI](install-or-update-the-snyk-cli/), [authenticating the CLI with your account](authenticate-to-use-the-cli.md), and [configuring the CLI](configure-the-snyk-cli/)
+* The full text of the [CLI help](commands/) for all of the commands and their options, just as the help appears in your terminal
+* A comprehensive summary of all of the [CLI commands and options](cli-commands-and-options-summary.md)
+* Articles with in-depth information about [scanning and maintaining projects using the CLI](scan-and-maintain-projects-using-the-cli/)
 
-Snyk CLI scanning for Open Source supports many languages and tools, including Java,  JavaScript, Python, PHP, Ruby, Scala, .NET, Golang, and C/C++. For more information see [Open source language and package manager support](../products/snyk-open-source/language-and-package-manager-support/).
+For additional information, see the following pages:
 
-Snyk CLI also supports:
-
-* [Snyk Code scanning](../products/snyk-code/cli-for-snyk-code/)
-* [Snyk Container scanning](../products/snyk-container/snyk-cli-for-container-security/) including Docker scanning
-* [Snyk Infrastructure as Code scanning](../products/snyk-infrastructure-as-code/snyk-cli-for-infrastructure-as-code/) including Terraform and Kubernetes (K8s) projects
-
-For additional information see [Supported languages](https://docs.snyk.io/introducing-snyk/snyk-languages-and-integrations#supported-languages).
+* [Snyk CLI for Open Source](scan-and-maintain-projects-using-the-cli/snyk-cli-for-open-source/)
+* [Snyk CLI for Snyk Code](scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/)
+* [Snyk CLI for Snyk Container](scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-container/)
+* [Snyk CLI for Infrastructure as Code](scan-and-maintain-projects-using-the-cli/snyk-cli-for-iac/)

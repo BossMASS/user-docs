@@ -1,2 +1,0 @@
-# Snyk Broker - Integration Setups
-
